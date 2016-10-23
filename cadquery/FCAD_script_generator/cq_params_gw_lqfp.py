@@ -6,7 +6,7 @@
 # from https://bitbucket.org/hyOzd/freecad-macros
 # author hyOzd
 #
-# Dimensions are from Jedec MS-026D document.
+# Dimensions are from Analog Devices (follows JEDEC standards)
 
 ## file of parametric definitions
 
@@ -71,7 +71,7 @@ all_params_lqfp = {
         npx = 12,   # number of pins along X axis (width)
         npy = 12,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_64_7x7mm_050mmPitch', #modelName
+        modelName = 'LQFP_48_7x7mm_050mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -129,7 +129,7 @@ all_params_lqfp = {
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
-    'BCC': Params( # 10x10, pitch 0.65 64pin 1.4mm height
+    'BCC': Params( # 10x10, pitch 0.65 52pin 1.4mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -179,7 +179,7 @@ all_params_lqfp = {
         npx = 16,   # number of pins along X axis (width)
         npy = 16,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_80_10x10mm_050mmPitch', #modelName
+        modelName = 'LQFP_64_10x10mm_050mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -287,7 +287,7 @@ all_params_lqfp = {
         npx = 20,   # number of pins along X axis (width)
         npy = 20,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_80_14x14mm_050mmPitch', #modelName
+        modelName = 'LQFP_80_14x14mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -314,7 +314,7 @@ all_params_lqfp = {
         npx = 25,   # number of pins along X axis (width)
         npy = 25,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_12x12mm_050mmPitch', #modelName
+        modelName = 'LQFP_100_12x12mm_050mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -341,7 +341,7 @@ all_params_lqfp = {
         npx = 30,   # number of pins along X axis (width)
         npy = 30,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_120_4x14mm_040mmPitch', #modelName
+        modelName = 'LQFP_120_14x14mm_040mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -368,11 +368,11 @@ all_params_lqfp = {
         npx = 38,   # number of pins along X axis (width)
         npy = 25,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_14x20mm_050mmPitch', #modelName
+        modelName = 'LQFP_128_14x20mm_050mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
-    'BFB': Params( # 14x20, pitch 0.5 144pin 1.4mm height
+    'BFB': Params( # 20x20, pitch 0.5 144pin 1.4mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -426,7 +426,7 @@ all_params_lqfp = {
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
-    'LQFP-128': Params( # 14x14, pitch 0.4 120pin 1.4mm height
+    'LQFP-128': Params( # 14x14, pitch 0.4 128pin 1.4mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -476,7 +476,7 @@ all_params_lqfp = {
         npx = 46,   # number of pins along X axis (width)
         npy = 46,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_20x20mm_040mmPitch', #modelName
+        modelName = 'LQFP_184_20x20mm_040mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),

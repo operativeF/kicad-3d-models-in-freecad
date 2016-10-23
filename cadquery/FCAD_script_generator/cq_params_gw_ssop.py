@@ -72,11 +72,11 @@ all_params_ssop = {
         npx = 8,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
 		epad = None,
-        modelName = 'SSOP_14_620x780mm_065mmPitch', #modelName
+        modelName = 'SSOP_14_56x72mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'ssop'
         ),
-    'SSOP_20': Params( # 5.6x7.2, pitch 0.65 20pin 2.0mm height
+    'SSOP_20': Params( # 5.3x7.2, pitch 0.65 20pin 2.0mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -99,11 +99,11 @@ all_params_ssop = {
         npx = 10,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'ssop_20_53x72_p065', #modelName
+        modelName = 'SSOP_20_53x72mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'ssop'
         ),
-    'SSOP_24': Params( # 5.6x7.2, pitch 0.65 20pin 2.0mm height
+    'SSOP_24': Params( # 5.3x7.2, pitch 0.65 20pin 2.0mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height

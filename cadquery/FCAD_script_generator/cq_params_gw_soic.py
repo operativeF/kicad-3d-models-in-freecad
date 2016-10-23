@@ -107,7 +107,7 @@ all_params_soic = {
          npx = 8,        # number of pins along X axis (width)
          npy = 0,        # number of pins along y axis (length)
          epad = None,    # e Pad
-         modelName = 'soic_16_39x99_p127', #modelName
+         modelName = 'SOIC_16_39x99_p127', #modelName
          rotation = 0,   # rotation if required
          dest_dir_prefix = 'soic'        
          ),
@@ -134,7 +134,7 @@ all_params_soic = {
         npx = 8,        # number of pins along X axis (width)
         npy = 0,        # number of pins along y axis (length)
         epad = None,    # e Pad
-        modelName = 'soic_16_75x103_p127', #modelName
+        modelName = 'SOIC_16_75x103_p127', #modelName
         rotation = 0,   # rotation if required
         dest_dir_prefix = 'soic'        
         ),
