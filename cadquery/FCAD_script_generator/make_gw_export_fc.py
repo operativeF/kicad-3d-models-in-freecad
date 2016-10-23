@@ -155,10 +155,10 @@ from cq_params_gw_sot import *
 # all_params.update(all_params_ssop)
 
 all_params= all_params_soic.copy()
-all_params.update(all_params_qfp)
-all_params.update(all_params_ssop)
+# all_params.update(all_params_qfp)
+# all_params.update(all_params_ssop)
 all_params.update(all_params_tssop)
-all_params.update(all_params_sot)
+# all_params.update(all_params_sot)
 
 
 # all_params = dict(all_params1.items() | all_params2.items())
@@ -561,11 +561,11 @@ if __name__ == "__main__":
         # export STEP model
         exportSTEP(doc,ModelName,out_dir)
         # scale and export Vrml model
-        scale=0.3937001
-        exportVRML(doc,ModelName,scale,out_dir)
+        # scale=0.3937001
+        # exportVRML(doc,ModelName,scale,out_dir)
         # Save the doc in Native FC format
         saveFCdoc(App, Gui, doc, ModelName,out_dir)
         #display BBox
-        FreeCADGui.ActiveDocument.getObject("Part__Feature").BoundingBox = True
+        #FreeCADGui.ActiveDocument.getObject("Part__Feature").BoundingBox = True
         Gui.SendMsgToActiveView("ViewFit")
         Gui.activeDocument().activeView().viewAxometric()

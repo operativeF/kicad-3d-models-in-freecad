@@ -5,5 +5,5 @@ echo cadquery-freecad-module required
 cd %~p0
 :: start "" "c:\FreeCAD\bin\freecad" export_conn_jst_xh.py B02B_XH_A
 :: FreeCAD export_conn_jst_xh.py all
-start "" "c:\FreeCAD\bin\freecad" export_conn_molex.py
+start "" "c:\FreeCAD\bin\freecad" export_conn_molex.py all
 :: start "" "c:\FreeCAD\bin\freecad" export_conn_phoenix

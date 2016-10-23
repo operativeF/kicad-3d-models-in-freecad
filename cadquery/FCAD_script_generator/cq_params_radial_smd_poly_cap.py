@@ -17,7 +17,7 @@ destination_dir = "/generated_cap/"
 # body color
 base_color = (39, 39, 39)
 body_color = (220, 220, 220)
-mark_color = (190, 15, 15)
+mark_color = (51, 153, 255)
 pins_color = (240, 240, 240)
 
 # Parametric Values

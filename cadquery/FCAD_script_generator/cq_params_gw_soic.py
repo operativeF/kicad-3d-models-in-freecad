@@ -165,4 +165,31 @@ all_params_soic = {
          rotation = 0,   # rotation if required
          dest_dir_prefix = 'soic'        
          ),
+     'SOIC_28': Params( # 17.9x9.9mm, pitch 1.27 28pin 2.65mm height
+         the = 9.0,      # body angle in degrees
+         tb_s = 0.15,    # top part of body is that much smaller
+         c = 0.2,        # pin thickness, body center part height
+         R1 = 0.1,       # pin upper corner, inner radius
+         R2 = 0.1,       # pin lower corner, inner radius
+         S = 0.25,       # pin top flat part length (excluding corner arc)
+#         L = 0.79,       # pin bottom flat part length (including corner arc)
+         fp_r = 0.5,     # first pin indicator radius
+         fp_d = 0.2,     # first pin indicator distance from edge
+         fp_z = 0.1,     # first pin indicator depth
+         ef = 0.0, # 0.05,      # fillet of edges  Note: bigger bytes model with fillet
+         cc1 = 0.25, #0.45 chamfer of the 1st pin corner
+         D1 = 17.7,       # body length
+         E1 = 7.5,       # body width
+         E = 10.3,        # body overall width
+         A1 = 0.1,       # body-board separation
+         A2 = 2.65,      # body height
+         b = 0.45,       # pin width
+         e = 1.27,       # pin pitch
+         npx = 14,        # number of pins along X axis (width)
+         npy = 0,        # number of pins along y axis (length)
+         epad = None,    # e Pad
+         modelName = 'SOIC_28_179x99mm_127mmPitch', #modelName
+         rotation = 0,   # rotation if required
+         dest_dir_prefix = 'soic'        
+         ),   
 }
