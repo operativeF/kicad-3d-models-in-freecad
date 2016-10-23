@@ -22,7 +22,7 @@ from cq_params_gw_soic import *
 
 
 all_params_tssop = {
-    'TSSOP_8': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
+    'TSSOP_8': Params( # 3.0x4.4, pitch 0.65 8pin 1.1mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -47,9 +47,9 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_8_30x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
-    'TSSOP_14': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
+    'TSSOP_14': Params( # 5.0x4.4, pitch 0.65 14pin 1.1mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -72,9 +72,9 @@ all_params_tssop = {
         npx = 7,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'tssop_14_50x44_p065', #modelName
+        modelName = 'TSSOP_14_50x44_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_16': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -101,7 +101,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_16_50x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_16_EP_1_3x3mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -128,7 +128,7 @@ all_params_tssop = {
         epad = [3.0, 3.0], # e Pad
         modelName = 'TSSOP_16_EP_1_3x3mm_50x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_20_EP_1_3x42mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -155,7 +155,7 @@ all_params_tssop = {
         epad = [4.2, 3.0], # e Pad
         modelName = 'TSSOP_20_EP_1_3x42mm_50x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_20': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -182,7 +182,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_20_65x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_24': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -209,7 +209,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_24_78x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_24_EP_1_32x50mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -236,7 +236,7 @@ all_params_tssop = {
         epad = [5.00, 3.20], # e Pad
         modelName = 'TSSOP_24_EP_1_32x50mm_78x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_28': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -263,7 +263,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_28_97x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_28_W': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -290,7 +290,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_28_W_97x61mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_28_EP_1_3x35mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -317,7 +317,7 @@ all_params_tssop = {
         epad = [3.5, 3.0], # e Pad
         modelName = 'TSSOP_28_EP_1_3x35mm_97x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_28_EP_1_3x55mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -344,7 +344,7 @@ all_params_tssop = {
         epad = [5.5, 3.0], # e Pad
         modelName = 'TSSOP_28_EP_1_3x55mm_97x44mm_065mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_38': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -371,7 +371,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_38_97x44mm_050mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_48_W': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -398,7 +398,7 @@ all_params_tssop = {
         epad = None, # e Pad
         modelName = 'TSSOP_48_W_125x61mm_050mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
     'TSSOP_100': Params( # 20.80x8.10, pitch 0.40 100pin 1.2mm height
         the = 12.0,      # body angle in degrees
@@ -423,9 +423,9 @@ all_params_tssop = {
         npx = 50,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'tssop_100_2080x810_p040', #modelName
+        modelName = 'TSSOP_100_2080x810_040mmPitch', #modelName
         rotation = 0, # rotation if required
-        dest_dir_prefix = 'tssop'
+        dest_dir_prefix = 'TSSOP'
         ),
 }
 

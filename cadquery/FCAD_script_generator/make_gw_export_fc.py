@@ -146,6 +146,9 @@ from cq_params_gw_tssop import *
 import cq_params_gw_sot  # modules parameters
 from cq_params_gw_sot import *
 
+import cq_params_gw_lqfp # modules parameters
+from cq_params_gw_lqfp import *
+
 # all_params= all_params_soic.copy()
 # all_params.update(all_params_qfp)
 
@@ -156,8 +159,9 @@ from cq_params_gw_sot import *
 
 all_params= all_params_soic.copy()
 # all_params.update(all_params_qfp)
-# all_params.update(all_params_ssop)
+all_params.update(all_params_ssop)
 all_params.update(all_params_tssop)
+all_params.update(all_params_lqfp)
 # all_params.update(all_params_sot)
 
 
