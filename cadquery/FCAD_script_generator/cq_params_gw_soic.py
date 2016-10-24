@@ -80,7 +80,7 @@ all_params_soic = {
         npx = 4,        # number of pins along X axis (width)
         npy = 0,        # number of pins along y axis (length)
         epad = None,    # e Pad
-        modelName = 'soic_8_39x49_p127', #modelName
+        modelName = 'SOIC_8_39x49mm_Pitch127mm', #modelName
         rotation = 0,   # rotation if required
         dest_dir_prefix = 'soic'
         ),
@@ -107,7 +107,7 @@ all_params_soic = {
          npx = 8,        # number of pins along X axis (width)
          npy = 0,        # number of pins along y axis (length)
          epad = None,    # e Pad
-         modelName = 'SOIC_16_39x99_p127', #modelName
+         modelName = 'SOIC_16_39x99mm_Pitch127mm', #modelName
          rotation = 0,   # rotation if required
          dest_dir_prefix = 'soic'        
          ),
@@ -134,7 +134,7 @@ all_params_soic = {
         npx = 8,        # number of pins along X axis (width)
         npy = 0,        # number of pins along y axis (length)
         epad = None,    # e Pad
-        modelName = 'SOIC_16_75x103_p127', #modelName
+        modelName = 'SOIC_16_75x103mm_Pitch127mm', #modelName
         rotation = 0,   # rotation if required
         dest_dir_prefix = 'soic'        
         ),
@@ -161,7 +161,7 @@ all_params_soic = {
          npx = 10,        # number of pins along X axis (width)
          npy = 0,        # number of pins along y axis (length)
          epad = None,    # e Pad
-         modelName = 'soic_20_75x103_p127', #modelName
+         modelName = 'SOIC_20_75x103mm_Pitch127mm', #modelName
          rotation = 0,   # rotation if required
          dest_dir_prefix = 'soic'        
          ),
@@ -188,7 +188,7 @@ all_params_soic = {
          npx = 14,        # number of pins along X axis (width)
          npy = 0,        # number of pins along y axis (length)
          epad = None,    # e Pad
-         modelName = 'SOIC_28_179x99mm_127mmPitch', #modelName
+         modelName = 'SOIC_28_179x99mm_Pitch127mm', #modelName
          rotation = 0,   # rotation if required
          dest_dir_prefix = 'soic'        
          ),   

@@ -44,7 +44,7 @@ all_params_lqfp = {
         npx = 8,   # number of pins along X axis (width)
         npy = 8,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_32_7x7mm_080mmPitch', #modelName
+        modelName = 'LQFP_32_7x7mm_Pitch08mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -71,7 +71,7 @@ all_params_lqfp = {
         npx = 12,   # number of pins along X axis (width)
         npy = 12,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_48_7x7mm_050mmPitch', #modelName
+        modelName = 'LQFP_48_7x7mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -98,7 +98,7 @@ all_params_lqfp = {
         npx = 16,   # number of pins along X axis (width)
         npy = 16,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_64_7x7mm_040mmPitch', #modelName
+        modelName = 'LQFP_64_7x7mm_Pitch04mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -125,7 +125,7 @@ all_params_lqfp = {
         npx = 11,   # number of pins along X axis (width)
         npy = 11,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_44_10x10mm_080mmPitch', #modelName
+        modelName = 'LQFP_44_10x10mm_Pitch08mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -152,7 +152,7 @@ all_params_lqfp = {
         npx = 13,   # number of pins along X axis (width)
         npy = 13,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_52_10x10mm_065mmPitch', #modelName
+        modelName = 'LQFP_52_10x10mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -179,7 +179,7 @@ all_params_lqfp = {
         npx = 16,   # number of pins along X axis (width)
         npy = 16,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_64_10x10mm_050mmPitch', #modelName
+        modelName = 'LQFP_64_10x10mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -206,7 +206,7 @@ all_params_lqfp = {
         npx = 20,   # number of pins along X axis (width)
         npy = 20,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_80_12x12mm_050mmPitch', #modelName
+        modelName = 'LQFP_80_12x12mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -233,7 +233,7 @@ all_params_lqfp = {
         npx = 11,   # number of pins along X axis (width)
         npy = 11,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_44_14x14mm_100mmPitch', #modelName
+        modelName = 'LQFP_44_14x14mm_Pitch1mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -260,7 +260,7 @@ all_params_lqfp = {
         npx = 16,   # number of pins along X axis (width)
         npy = 16,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_64_14x14mm_080mmPitch', #modelName
+        modelName = 'LQFP_64_14x14mm_Pitch08mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -287,7 +287,7 @@ all_params_lqfp = {
         npx = 20,   # number of pins along X axis (width)
         npy = 20,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_80_14x14mm_065mmPitch', #modelName
+        modelName = 'LQFP_80_14x14mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -314,7 +314,7 @@ all_params_lqfp = {
         npx = 25,   # number of pins along X axis (width)
         npy = 25,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_100_12x12mm_050mmPitch', #modelName
+        modelName = 'LQFP_100_12x12mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -341,7 +341,7 @@ all_params_lqfp = {
         npx = 30,   # number of pins along X axis (width)
         npy = 30,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_120_14x14mm_040mmPitch', #modelName
+        modelName = 'LQFP_120_14x14mm_Pitch04mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -368,7 +368,7 @@ all_params_lqfp = {
         npx = 38,   # number of pins along X axis (width)
         npy = 25,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_128_14x20mm_050mmPitch', #modelName
+        modelName = 'LQFP_128_14x20mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -395,7 +395,7 @@ all_params_lqfp = {
         npx = 36,   # number of pins along X axis (width)
         npy = 36,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_144_20x20mm_050mmPitch', #modelName
+        modelName = 'LQFP_144_20x20mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -422,7 +422,7 @@ all_params_lqfp = {
         npx = 44,   # number of pins along X axis (width)
         npy = 44,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_176_24x24mm_050mmPitch', #modelName
+        modelName = 'LQFP_176_24x24mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -449,7 +449,7 @@ all_params_lqfp = {
         npx = 32,   # number of pins along X axis (width)
         npy = 32,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_128_14x14mm_040mmPitch', #modelName
+        modelName = 'LQFP_128_14x14mm_Pitch04mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),
@@ -476,7 +476,7 @@ all_params_lqfp = {
         npx = 46,   # number of pins along X axis (width)
         npy = 46,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'LQFP_184_20x20mm_040mmPitch', #modelName
+        modelName = 'LQFP_184_20x20mm_Pitch04mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'lqfp'
         ),

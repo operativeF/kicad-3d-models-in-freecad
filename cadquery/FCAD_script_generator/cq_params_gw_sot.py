@@ -45,7 +45,7 @@ all_params_sot = {
         npx = 3,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'sot23_6_18x29_p095', #modelName
+        modelName = 'SOT_23_6_18x29mm_Pitch095mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'sot'
         ),
@@ -72,7 +72,7 @@ all_params_sot = {
         npx = 3,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'sot23_3_25x30_p095', #modelName
+        modelName = 'SOT_23_3_25x30mm_Pitch095mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'sot'
         ),
@@ -99,7 +99,7 @@ all_params_sot = {
         npx = 3,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'sot23_5_18x29_p095', #modelName
+        modelName = 'SOT_23_5_18x29mm_Pitch095mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'sot'
         ),
@@ -126,7 +126,7 @@ all_params_sot = {
         npx = 3,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'sc70_3_22x22_p065', #modelName
+        modelName = 'SC70_3_22x22mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'sot'
         ),        

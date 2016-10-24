@@ -45,7 +45,7 @@ all_params_qfp = {
         npx = 5,   # number of pins along X axis (width)
         npy = 5,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp20_4x4_p032', #modelName
+        modelName = 'QFP_20_4x4mm_Pitch032mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -72,7 +72,7 @@ all_params_qfp = {
         npx = 16,  # number of pins along X axis (width)
         npy = 16,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp32_7x7_p04', #modelName
+        modelName = 'QFP_32_7x7mm_Pitch04mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -99,7 +99,7 @@ all_params_qfp = {
         npx = 36,  # number of pins along X axis (width)
         npy = 36,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp64_20x20_p05', #modelName
+        modelName = 'QFP_144_20x20_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -126,7 +126,7 @@ all_params_qfp = {
         npx = 11,  # number of pins along X axis (width)
         npy = 11,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp44_10x10_p08', #modelName
+        modelName = 'QFP_44_10x10mm_Pitch08mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -153,7 +153,7 @@ all_params_qfp = {
         npx = 13,  # number of pins along X axis (width)
         npy = 13,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp52_10x10_p065', #modelName
+        modelName = 'QFP_52_10x10mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -180,7 +180,7 @@ all_params_qfp = {
         npx = 20,  # number of pins along X axis (width)
         npy = 20,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp80_10x10_p04', #modelName
+        modelName = 'QFP_80_10x10mm_Pitch04mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -207,7 +207,7 @@ all_params_qfp = {
         npx = 13,  # number of pins along X axis (width)
         npy = 13,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp64_12x12_p065', #modelName
+        modelName = 'QFP_64_12x12mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -234,7 +234,7 @@ all_params_qfp = {
         npx = 20,  # number of pins along X axis (width)
         npy = 20,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp80_12x12_p05', #modelName
+        modelName = 'QFP_80_12x12mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -261,7 +261,7 @@ all_params_qfp = {
         npx = 20,  # number of pins along X axis (width)
         npy = 20,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp80_14x14_p065', #modelName
+        modelName = 'QFP_80_14x14mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -288,7 +288,7 @@ all_params_qfp = {
         npx = 25,  # number of pins along X axis (width)
         npy = 25,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp100_14x14_p05', #modelName
+        modelName = 'QFP_100_14x14mm_Pitch05mm', #modelName
         rotation = -90, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
@@ -315,7 +315,7 @@ all_params_qfp = {
         npx = 16,  # number of pins along X axis (width)
         npy = 16,  # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'qfp64_10x10_p05', #modelName
+        modelName = 'QFP_64_10x10mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'qfp'
         ),
