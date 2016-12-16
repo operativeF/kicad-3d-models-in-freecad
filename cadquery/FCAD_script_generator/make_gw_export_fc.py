@@ -158,11 +158,11 @@ from cq_params_gw_lqfp import *
 # all_params.update(all_params_ssop)
 
 all_params= all_params_soic.copy()
-# all_params.update(all_params_qfp)
+all_params.update(all_params_qfp)
 all_params.update(all_params_ssop)
 all_params.update(all_params_tssop)
 all_params.update(all_params_lqfp)
-# all_params.update(all_params_sot)
+all_params.update(all_params_sot)
 
 
 # all_params = dict(all_params1.items() | all_params2.items())

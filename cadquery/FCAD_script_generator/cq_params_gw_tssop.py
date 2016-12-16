@@ -45,7 +45,7 @@ all_params_tssop = {
         npx = 4,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_8_30x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_8_3x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -72,7 +72,7 @@ all_params_tssop = {
         npx = 7,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_14_50x44_065mmPitch', #modelName
+        modelName = 'TSSOP_14_5x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -99,7 +99,7 @@ all_params_tssop = {
         npx = 8,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_16_50x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_16_5x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -126,7 +126,7 @@ all_params_tssop = {
         npx = 8,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = [3.0, 3.0], # e Pad
-        modelName = 'TSSOP_16_EP_1_3x3mm_50x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_16_EP_1_3x3mm_5x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -153,7 +153,7 @@ all_params_tssop = {
         npx = 10,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = [4.2, 3.0], # e Pad
-        modelName = 'TSSOP_20_EP_1_3x42mm_50x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_20_EP_1_3x42mm_5x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -180,7 +180,7 @@ all_params_tssop = {
         npx = 10,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_20_65x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_20_65x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -207,11 +207,11 @@ all_params_tssop = {
         npx = 12,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_24_78x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_24_78x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
-    'TSSOP_24_EP_1_32x50mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
+    'TSSOP_24_EP_1_32x5mm': Params( # 5.0x4.4, pitch 0.65 14pin 1.2mm height
         the = 12.0,      # body angle in degrees
         tb_s = 0.15,    # top part of body is that much smaller
         c = 0.1,        # pin thickness, body center part height
@@ -234,7 +234,7 @@ all_params_tssop = {
         npx = 12,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = [5.00, 3.20], # e Pad
-        modelName = 'TSSOP_24_EP_1_32x50mm_78x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_24_EP_1_32x5mm_78x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -261,7 +261,7 @@ all_params_tssop = {
         npx = 14,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_28_97x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_28_97x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -288,7 +288,7 @@ all_params_tssop = {
         npx = 14,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_28_W_97x61mm_065mmPitch', #modelName
+        modelName = 'TSSOP_28_W_97x61mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -315,7 +315,7 @@ all_params_tssop = {
         npx = 14,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = [3.5, 3.0], # e Pad
-        modelName = 'TSSOP_28_EP_1_3x35mm_97x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_28_EP_1_3x35mm_97x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -342,7 +342,7 @@ all_params_tssop = {
         npx = 14,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = [5.5, 3.0], # e Pad
-        modelName = 'TSSOP_28_EP_1_3x55mm_97x44mm_065mmPitch', #modelName
+        modelName = 'TSSOP_28_EP_1_3x55mm_97x44mm_Pitch065mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -369,7 +369,7 @@ all_params_tssop = {
         npx = 17,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_38_97x44mm_050mmPitch', #modelName
+        modelName = 'TSSOP_38_97x44mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -396,7 +396,7 @@ all_params_tssop = {
         npx = 24,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_48_W_125x61mm_050mmPitch', #modelName
+        modelName = 'TSSOP_48_W_125x61mm_Pitch05mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
@@ -423,7 +423,7 @@ all_params_tssop = {
         npx = 50,   # number of pins along X axis (width)
         npy = 0,   # number of pins along y axis (length)
         epad = None, # e Pad
-        modelName = 'TSSOP_100_2080x810_040mmPitch', #modelName
+        modelName = 'TSSOP_100_208x81mm_Pitch040mm', #modelName
         rotation = 0, # rotation if required
         dest_dir_prefix = 'TSSOP'
         ),
